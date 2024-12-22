@@ -1,0 +1,11 @@
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Air:git_challenge bokuranohome$ git commit -m "hello_world.txtを追加"
+[master (root-commit) 2d8b37a] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+MacBook-Air:git_challenge bokuranohome$ echo "こんにちは、世界！" >> hello_world.txt
+MacBook-Air:git_challenge bokuranohome$ git add hello_world.txt
+MacBook-Air:git_challenge bokuranohome$ git commit -m "こんにちは、世界追加”
+> 
