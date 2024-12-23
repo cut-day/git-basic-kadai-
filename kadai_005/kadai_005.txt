@@ -1,11 +1,20 @@
-The default interactive shell is now zsh.
-To update your account to use zsh, please run `chsh -s /bin/zsh`.
-For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Air:Development bokuranohome$ mkdir git_challenge
+MacBook-Air:Development bokuranohome$ cd git_challenge
+MacBook-Air:git_challenge bokuranohome$ git init
+Initialized empty Git repository in /Users/bokuranohome/Desktop/Development/git_challenge/.git/
+MacBook-Air:git_challenge bokuranohome$ echo "Hello, world!" >> hello_world.txt
+echo "Hello, world"最初のコミット” >> hello_world.txt
+MacBook-Air:git_challenge bokuranohome$ git add hello_world.txt
 MacBook-Air:git_challenge bokuranohome$ git commit -m "hello_world.txtを追加"
-[master (root-commit) 2d8b37a] hello_world.txtを追加
+[main (root-commit) d32e120] hello_world.txtを追加
  1 file changed, 1 insertion(+)
  create mode 100644 hello_world.txt
 MacBook-Air:git_challenge bokuranohome$ echo "こんにちは、世界！" >> hello_world.txt
 MacBook-Air:git_challenge bokuranohome$ git add hello_world.txt
-MacBook-Air:git_challenge bokuranohome$ git commit -m "こんにちは、世界追加”
-> 
+MacBook-Air:git_challenge bokuranohome$ git commit -m "日本語訳を追記"
+[main 92c90dd] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+MacBook-Air:git_challenge bokuranohome$ git log --oneline
+92c90dd (HEAD -> main) 日本語訳を追記
+d32e120 hello_world.txtを追加
+MacBook-Air:git_challenge bokuranohome$ 
